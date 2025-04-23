@@ -12,7 +12,7 @@ Explanation: Since 20 occurs once, while other numbers occur twice, 20 is the an
 
 '''
 
-def findUnique(self, arr):
+def findUnique(arr):
     mp = {}
     for i in arr:
         if i not in mp:
