@@ -25,7 +25,6 @@ func (list *linklist) insert(data int) {
 		tmp = tmp.next
 	}
 	tmp.next = newNode
-
 }
 
 func (list *linklist) printList() {
